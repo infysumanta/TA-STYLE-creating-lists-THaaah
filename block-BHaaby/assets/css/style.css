@@ -1,0 +1,105 @@
+body {
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #d4cea7;
+  font-weight: 700;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Header */
+.nav-bar {
+  background-color: #f86126;
+  padding: 20px 0;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+.nav-menu ul {
+  justify-content: flex-start;
+}
+.nav-menu li {
+  margin-left: 32px;
+}
+/* section-1 */
+.box {
+  background-color: #085979;
+  height: 550px;
+  width: 25%;
+  color: #d4cea7;
+  padding: 20px 50px;
+  margin: 20px 40px;
+  line-height: 1.9;
+  font-size: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.li-1 {
+  list-style-type: decimal;
+}
+
+.li-2 {
+  list-style-type: disc;
+}
+
+.sub-menu {
+  list-style-type: decimal;
+  margin-left: 40px;
+}
+.sub-ul {
+  list-style-type: square;
+  margin-left: 40px;
+}
+.li-3 li {
+  list-style-image: url("./../images/tick.png");
+  margin-bottom: 10px;
+}
+.li-3 li:marker {
+  font-size: 8px;
+}
+/* Section -2 */
+
+.section-2 {
+  font-family: "Roboto Mono", monospace;
+}
+.discription {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 800px;
+}
+dd {
+  font-family: "Assistant", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-left: 40px;
+  color: #625d44;
+}
+dt {
+  font-size: 30px;
+  font-weight: 400;
+  color: #2e352c;
+}
+/* Footer */
+.footer {
+  background-color: #252c22;
+  padding: 40px 0;
+  margin-top: 20px;
+}
